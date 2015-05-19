@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Match A Song</title>
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+<div class="containerMain">
+  <h1 id="page-title">MATCH A SONG!</h1>
+  <a href="#0" class="cd-btn animated flash">Click for instructions</a> 
+<form class="search form-wrapper cf">
+<h2>Enter an artist and song title below.</h2>
+    <input type="search" name="search" id="search" class="searchbar" placeholder="Search here..." required>
+    <button type="submit">Search</button>
+</form>
+</div>
+</header>
+
+<main>  
+  <div class="container" id="matchedArtist"><p class="matched">Your matched song will appear here.</p></div>
+  <div class="container" id="matchedSong"></div>
+  <div class="container" id="matchedAlbum"></div>
+</main>
+
+<aside>
+<div class="lteOne"><a id="lte1"></a><script type="text/javascript" src="http://www.listube.com/em/?width=500&height=165"></script></div>
+<div class="lteTwo"><a id="lte2"></a><script type="text/javascript" src="http://www.listube.com/em/?width=500&height=165"></script></div>
+<div class="info">Made by <a href="http://www.dannypaton.com">Danny Paton</div></a>
+
+</aside>
+ 
+<div class="cd-panel from-right">
+  <header class="cd-panel-header">
+    <h1>Match a Song!</h1>
+    <a href="#0" class="cd-panel-close">Close</a>
+  </header>
+
+  <div class="cd-panel-container">
+    <div class="cd-panel-content">
+      <p>Search for a song and wait for the results! A matched song will pop up.</p><p>What is happening? Your matched song has the same tempo and key as your searched song.This means if you play both songs at the same time, the songs should be very similar. in sound and groove.</p><p>Go ahead and enter both songs into the search fields and find out!</p>
+    </div> <!-- cd-panel-content -->
+  </div> <!-- cd-panel-container -->
+</div> <!-- cd-panel -->
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<script src="min/app-min.js"></script>
+</body>
+</html>
